@@ -14,6 +14,6 @@ public class Salario {
         salario= horas*20;
 
         System.out.println("O Seu Salário é: " + salario);
-
+        scanner.close();
     }
 }
