@@ -4,10 +4,10 @@ public class Televisao{
     int volume;
     String marca;
 
-    public Televisao(String marca, int polegadas, int voltagem){
-        this.marca="Samsung";
-        this.tamanho=50;
-        this.voltagem=110;
+    public Televisao(String Marca, int Polegadas, int Voltagem){
+        this.marca=Marca;
+        this.tamanho=Polegadas;
+        this.voltagem=Voltagem;
         this.volume=5;
     }
     void aumentarvol() {
@@ -32,8 +32,12 @@ public class Televisao{
         System.out.println("Subindo canal: "+ canal);
     }
     void descercanal(){
-        canal--;
-        System.out.println("Descendo canal: "+ canal);
+        if(canal<=0){
+            System.out.println("Nao e possivel diminuir mais o canal");
+        } else {
+            canal--;
+            System.out.println("Canal diminuido: " + canal);
+        }
     }
 
     void ligar(){
