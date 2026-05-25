@@ -1,0 +1,1 @@
+Atividade 3 - Resoluçao da lista de exercícios 1 sobre Java.
