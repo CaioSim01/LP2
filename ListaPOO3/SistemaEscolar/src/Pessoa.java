@@ -1,5 +1,5 @@
 public abstract class Pessoa{
-    String nome, cpf;
+    private String nome, cpf;
 
     public Pessoa(String nome, String cpf) {
         this.nome = nome;

@@ -1,5 +1,5 @@
 public class Bicicleta extends Transporte{
-    String temMarchas;
+    private String temMarchas;
 
     public Bicicleta(int capacidade, String temMarchas) {
         super(capacidade);

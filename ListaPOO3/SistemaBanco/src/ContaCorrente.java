@@ -1,5 +1,5 @@
 public class ContaCorrente {
-    double valor = 0;
+    private double valor = 0;
 
     public void executarOperacao(Operacao opr){
         valor += opr.operar();

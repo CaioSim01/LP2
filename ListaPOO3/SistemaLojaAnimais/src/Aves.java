@@ -1,5 +1,5 @@
 public class Aves extends Animal{
-    String tipoEspecifico;
+    private String tipoEspecifico;
 
     public Aves(int idade, String nome, String tipoEspecifico) {
         super(idade, nome);

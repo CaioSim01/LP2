@@ -1,5 +1,5 @@
 public class Onibus extends Transporte{
-    int linha;
+    private int linha;
 
     public Onibus(int capacidade, int linha) {
         super(capacidade);

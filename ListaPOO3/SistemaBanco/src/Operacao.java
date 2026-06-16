@@ -1,5 +1,5 @@
 public abstract class  Operacao{
-    double valor;
+    private double valor;
 
     public Operacao(double valor) {
         this.valor = valor;
@@ -7,4 +7,7 @@ public abstract class  Operacao{
 
     public abstract double operar();
 
+    public double getValor() {
+        return valor;
+    }
 }

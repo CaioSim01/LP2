@@ -6,7 +6,7 @@ public class Credito extends  Operacao{
 
     @Override
     public double operar(){
-        return valor;
+        return getValor();
     }
 }
 

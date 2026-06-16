@@ -1,6 +1,6 @@
 public class Correntista {
-    String nome;
-    ContaCorrente conta;
+    private String nome;
+    private ContaCorrente conta;
 
     public Correntista(String nome){
         this.nome = nome;

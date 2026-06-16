@@ -1,5 +1,5 @@
 public abstract class Transporte{
-    int capacidade;
+    private int capacidade;
 
     public Transporte(int capacidade) {
         this.capacidade = capacidade;

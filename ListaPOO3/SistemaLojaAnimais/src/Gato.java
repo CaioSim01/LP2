@@ -1,7 +1,5 @@
-import java.io.StringReader;
-
 public class Gato extends Animal{
-    String pelagem;
+    private String pelagem;
 
     public Gato(int idade, String nome, String pelagem) {
         super(idade, nome);

@@ -1,5 +1,5 @@
 public class Carro extends Transporte{
-    String combustivel;
+    private String combustivel;
 
     public Carro(int capacidade, String combustivel) {
         super(capacidade);

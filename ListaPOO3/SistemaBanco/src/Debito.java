@@ -6,6 +6,6 @@ public class Debito extends  Operacao{
 
     @Override
     public double operar(){
-        return 0 - valor;
+        return 0 - getValor();
     }
 }
