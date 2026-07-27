@@ -1,4 +1,4 @@
-# Questão 2 — V ou F
+Questão 2 — V ou F
 
 ( V ) Uma classe abstrata pode possuir métodos concretos.
 ( V ) Uma interface pode possuir métodos default.

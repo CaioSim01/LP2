@@ -1,4 +1,4 @@
-# Questão 1 — Explique a diferença entre uma classe abstrata e uma interface em Java considerando os seguintes aspectos:
+Questão 1 — Explique a diferença entre uma classe abstrata e uma interface em Java considerando os seguintes aspectos:
 
 Objetivo
 Classe abstrata: representa um conceito comum a subclasses que compartilham identidade e estado.
