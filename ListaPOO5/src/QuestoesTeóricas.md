@@ -2,14 +2,6 @@
 
 Exceção é um evento anormal que acontece durante a execução do programa e quebra o fluxo normal das instruções (tipo dividir por zero, acessar um índice inválido de array, tentar abrir um arquivo que não existe, etc). Quando isso acontece, o Java cria um objeto de exceção e "lança" ele, interrompendo a execução normal até que algum bloco de código capture e trate esse erro.
 
-O tratamento de exceções é importante porque:
-
-Evita que o programa trave (crash) de forma abrupta pro usuário
-Permite dar uma resposta clara sobre o que deu errado, em vez de simplesmente parar
-Separa o código "normal" da lógica de tratamento de erro, deixando o código mais organizado
-Em sistemas reais (bancários, e-commerce, etc), evita perda de dados e permite que o sistema se recupere ou pelo menos feche de forma segura, registrando o erro pra análise depois
-
-
 ## 2 - Checked ou Unchecked
 
 Exceção e Tipo:
