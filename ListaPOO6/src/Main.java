@@ -17,5 +17,6 @@ public class Main {
         persistencia.imprimir();
         persistencia.obterLivro(livro3);
 
+        System.out.println(persistencia.verificarLista());
     }
 }
